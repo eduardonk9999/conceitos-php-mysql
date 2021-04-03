@@ -1,11 +1,15 @@
 <?php
-  // comparisons booleans (true or false)
-  // echo true; "1"
-  // echo false; ""
+  function sayHello($name) {
+    echo "good morning $name";
+  }
+  
+  // sayHello('mario');
+  
+  function formatProduct($product) {
+    echo "{$product['name']} costs EURO{$product['price']} to buy <br />";
+  }
 
-  // echo 5 < 10; cinco é menor que 10, saida é true
-  
-  
+  formatProduct(['name'=>'gold star', 'price'=> 20]);
 
 
 ?>
